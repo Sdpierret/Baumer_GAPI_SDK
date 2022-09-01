@@ -1,0 +1,15 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build examples",
+            "type": "shell",
+            "command": "cmake",
+            "args": ["--build", "/home/dpierret/DragonFly/Baumer_GAPI_SDK_2.12.0_lin_x86_64_c/examples/build_linux_release"],
+            "group": {"kind": "build", "isDefault": true},
+            "problemMatcher": []
+        }
+    ]
+}
