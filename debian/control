@@ -1,0 +1,27 @@
+Source: baumer-sdk
+Section: Library
+Priority: optional
+Maintainer: Dragonfly <dragonfly@upnext.com>
+Description: Baumer GAPI SDK
+Standards-Version: 4.6.0
+Build-Depends: debhelper
+
+Package: baumer
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgcc-s1(>=3.3) , liblog4cpp5v5
+Description: Baumer GAPI SDK (execution)
+
+Package: baumer-tools
+Architecture: amd64
+Depends: baumer, ${shlibs:Depends}, ${misc:Depends}, libqt5widgets5, libqt5core5a, libqt5dbus5, libqt5gui5, qtwayland5
+Description: Baumer GAPI tools
+
+
+Package: libbaumer-dev
+Architecture: amd64
+Depends: baumer, ${shlibs:Depends}, ${misc:Depends}
+Description: Baumer GAPI SDK (development)
+
+Package: libbaumer-docs
+Architecture: amd64
+Description: Baumer GAPI SDK (development)

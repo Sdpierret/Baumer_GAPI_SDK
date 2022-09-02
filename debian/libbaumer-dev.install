@@ -1,0 +1,3 @@
+lib/cmake/bgapi/*.cmake usr/lib/cmake/bgapi
+include/bgapi2_genicam/*.h usr/include/bgapi2_genicam/
+include/bgapi2_genicam/*.hpp usr/include/bgapi2_genicam/

@@ -1,0 +1,3 @@
+tools/IpConfigTool usr/bin
+tools/gevipconfig usr/bin
+tools/gevipconfig.md usr/bin

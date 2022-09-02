@@ -1,0 +1,16 @@
+debian/.debhelper/
+debian/baumer-tools.debhelper.log
+debian/baumer-tools.substvars
+debian/baumer-tools/
+debian/baumer.debhelper.log
+debian/baumer.substvars
+debian/baumer/
+debian/debhelper-build-stamp
+debian/libbaumer-dev.debhelper.log
+debian/libbaumer-dev.substvars
+debian/libbaumer-dev/
+debian/libbaumer-docs.debhelper.log
+debian/libbaumer-docs.substvars
+debian/libbaumer-docs/
+examples/build_linux_debug/
+examples/build_linux_release/
